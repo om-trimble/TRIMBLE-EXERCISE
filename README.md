@@ -2,7 +2,7 @@
 
 A comprehensive support ticket management system built with **React + TypeScript** frontend and **ASP.NET Core 8** backend, featuring Trimble's professional branding and modern web technologies.
 
-![Support Portal](https://img.shields.io/badge/Version-1.0.0-blue) ![.NET](https://img.shields.io/badge/.NET-8.0-purple) ![React](https://img.shields.io/badge/React-19.1.0-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)
+![.NET](https://img.shields.io/badge/.NET-8.0-purple) ![React](https://img.shields.io/badge/React-19.1.0-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)
 
 ## 🎯 Overview
 
