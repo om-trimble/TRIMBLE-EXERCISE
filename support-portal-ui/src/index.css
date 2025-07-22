@@ -1,0 +1,237 @@
+/* Import Modus Bootstrap CSS */
+@import '@trimble-oss/modus-bootstrap/dist/css/modus-bootstrap.min.css';
+
+/* Trimble brand colors and customizations */
+:root {
+  --trimble-blue: #0063a3;
+  --trimble-blue-dark: #004f7f;
+  --trimble-blue-light: #e8f4fd;
+  --trimble-gray: #6a6e79;
+  --trimble-gray-light: #f1f1f6;
+  --trimble-yellow: #fbad26;
+  --trimble-success: #1e8a44;
+  --trimble-danger: #da212c;
+  --trimble-warning: #fbad26;
+}
+
+/* Custom Trimble styling */
+body {
+  font-family: 'Inter', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: var(--trimble-gray-light);
+}
+
+/* Navbar customizations */
+.navbar-trimble {
+  background-color: var(--trimble-blue) !important;
+  border-bottom: 3px solid var(--trimble-yellow);
+}
+
+.navbar-trimble .navbar-brand {
+  color: white !important;
+  font-weight: 600;
+}
+
+.navbar-trimble .navbar-brand:hover {
+  color: var(--trimble-yellow) !important;
+}
+
+/* Header customizations */
+.header-trimble {
+  background: linear-gradient(135deg, var(--trimble-blue) 0%, var(--trimble-blue-dark) 100%);
+  color: white;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+
+/* Card customizations */
+.card-trimble {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+}
+
+.card-trimble .card-header {
+  background-color: var(--trimble-blue-light);
+  border-bottom: 2px solid var(--trimble-blue);
+  border-radius: 12px 12px 0 0 !important;
+  padding: 1.5rem;
+}
+
+.card-trimble .card-title {
+  color: var(--trimble-blue);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Button customizations */
+.btn-trimble-primary {
+  background-color: var(--trimble-blue);
+  border-color: var(--trimble-blue);
+  color: white;
+  font-weight: 500;
+}
+
+.btn-trimble-primary:hover {
+  background-color: var(--trimble-blue-dark);
+  border-color: var(--trimble-blue-dark);
+  color: white;
+}
+
+.btn-trimble-success {
+  background-color: var(--trimble-success);
+  border-color: var(--trimble-success);
+  color: white;
+}
+
+.btn-trimble-danger {
+  background-color: var(--trimble-danger);
+  border-color: var(--trimble-danger);
+  color: white;
+}
+
+.btn-trimble-warning {
+  background-color: var(--trimble-warning);
+  border-color: var(--trimble-warning);
+  color: var(--trimble-blue-dark);
+}
+
+/* Form customizations */
+.form-control:focus {
+  border-color: var(--trimble-blue);
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 163, 0.25);
+}
+
+/* Table customizations */
+.table-trimble {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-trimble thead th {
+  background-color: var(--trimble-blue);
+  color: white;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+}
+
+.table-trimble tbody tr {
+  border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.table-trimble tbody tr:hover {
+  background-color: var(--trimble-blue-light);
+  cursor: pointer;
+}
+
+.table-trimble tbody tr.table-danger {
+  /* border-left: 4px solid var(--trimble-danger); */
+  background-color: rgba(218, 33, 44, 0.02);
+}
+
+.table-trimble tbody tr.table-danger:hover {
+  background-color: rgba(218, 33, 44, 0.05);
+}
+
+/* Badge customizations */
+.badge-trimble-open {
+  background-color: var(--trimble-warning);
+  color: var(--trimble-blue-dark);
+}
+
+.badge-trimble-progress {
+  background-color: var(--trimble-blue);
+  color: white;
+}
+
+.badge-trimble-closed {
+  background-color: var(--trimble-danger);
+  color: white;
+}
+
+/* Alert customizations */
+.alert-trimble-success {
+  background-color: #d1e7dd;
+  border-color: var(--trimble-success);
+  color: #0a3622;
+}
+
+.alert-trimble-danger {
+  background-color: #f8d7da;
+  border-color: var(--trimble-danger);
+  color: #58151c;
+}
+
+/* Expandable row animation */
+.expandable-content {
+  background-color: var(--trimble-blue-light);
+  border-left: 4px solid var(--trimble-blue);
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading spinner */
+.spinner-trimble {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid transparent;
+  border-top: 2px solid var(--trimble-blue);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .header-trimble {
+    padding: 2rem 0;
+  }
+  
+  .card-trimble .card-header {
+    padding: 1rem;
+  }
+  
+  .table-responsive {
+    border-radius: 8px;
+  }
+}
+
+/* Focus indicators for accessibility */
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+  outline: 2px solid var(--trimble-yellow);
+  outline-offset: 2px;
+}
+
+/* Trimble logo styling */
+.trimble-logo {
+  height: 40px;
+  width: auto;
+}
+
+/* Utility classes */
+.text-trimble-blue { color: var(--trimble-blue) !important; }
+.text-trimble-gray { color: var(--trimble-gray) !important; }
+.bg-trimble-blue { background-color: var(--trimble-blue) !important; }
+.bg-trimble-light { background-color: var(--trimble-blue-light) !important; }
