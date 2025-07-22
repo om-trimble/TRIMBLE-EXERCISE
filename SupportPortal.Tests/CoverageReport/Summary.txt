@@ -1,0 +1,26 @@
+Summary
+  Generated on: 17-07-2025 - 16:13:36
+  Coverage date: 17-07-2025 - 16:11:12 - 17-07-2025 - 16:12:48
+  Parser: MultiReport (2x Cobertura)
+  Assemblies: 1
+  Classes: 4
+  Files: 4
+  Line coverage: 92.8%
+  Covered lines: 297
+  Uncovered lines: 23
+  Coverable lines: 320
+  Total lines: 403
+  Branch coverage: 100% (6 of 6)
+  Covered branches: 6
+  Total branches: 6
+  Method coverage: 94.4% (17 of 18)
+  Full method coverage: 94.4% (17 of 18)
+  Covered methods: 17
+  Fully covered methods: 17
+  Total methods: 18
+
+SupportPortal.Api                              92.8%
+  Program                                         0%
+  SupportPortal.Api.SupportTicket               100%
+  SupportPortal.Api.SupportTicketsController    100%
+  SupportPortal.Api.SupportTicketService        100%

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@trimble-oss/modus-bootstrap": "^2.0.13"
+  }
+}

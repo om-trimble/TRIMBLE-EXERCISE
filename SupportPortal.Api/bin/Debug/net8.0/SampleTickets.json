@@ -1,0 +1,410 @@
+[
+  {
+    "Name": "Alice Johnson",
+    "Email": "alice.johnson@techcorp.com",
+    "Subject": "Cannot access my account after password reset",
+    "Description": "I reset my password yesterday but still cannot log into the system. I've tried multiple browsers and cleared my cache. The system keeps saying 'Invalid credentials' even though I'm using the new password.",
+    "Status": "Open",
+    "CreatedDate": "2024-12-15T08:30:00Z"
+  },
+  {
+    "Name": "Bob Martinez",
+    "Email": "bob.martinez@gmail.com",
+    "Subject": "Dashboard loading very slowly",
+    "Description": "The main dashboard takes over 2 minutes to load. This started happening 3 days ago. My internet connection is fine and other websites load normally.",
+    "Status": "In Progress",
+    "CreatedDate": "2024-12-14T14:22:00Z"
+  },
+  {
+    "Name": "Carol Williams",
+    "Email": "carol.w@businesssolutions.net",
+    "Subject": "Feature request: Export data to Excel",
+    "Description": "It would be very helpful if we could export our ticket data to Excel format. Currently we can only view it on screen which makes reporting difficult.",
+    "Status": "Open",
+    "CreatedDate": "2024-12-13T11:45:00Z"
+  },
+  {
+    "Name": "David Chen",
+    "Email": "d.chen@startup.io",
+    "Subject": "Error message when submitting forms",
+    "Description": "Getting 'Validation Error 500' when trying to submit any form in the system. This is blocking all our operations. Browser console shows JavaScript errors.",
+    "Status": "In Progress",
+    "CreatedDate": "2024-12-12T16:18:00Z"
+  },
+  {
+    "Name": "Emma Thompson",
+    "Email": "emma.thompson@nonprofit.org",
+    "Subject": "Mobile app not syncing with web version",
+    "Description": "Changes made on the mobile app don't appear on the web version and vice versa. We need data to sync across all platforms.",
+    "Status": "Closed",
+    "CreatedDate": "2024-12-11T09:33:00Z"
+  },
+  {
+    "Name": "Frank Rodriguez",
+    "Email": "frank.r@consulting.com",
+    "Subject": "Unable to upload files larger than 5MB",
+    "Description": "System gives error when trying to upload files over 5MB. We need to upload presentation files that are typically 10-15MB. Can the limit be increased?",
+    "Status": "Open",
+    "CreatedDate": "2024-12-10T13:27:00Z"
+  },
+  {
+    "Name": "Grace Lee",
+    "Email": "grace.lee@university.edu",
+    "Subject": "Two-factor authentication not working",
+    "Description": "I enabled 2FA but I'm not receiving SMS codes. I've checked my phone number multiple times and it's correct. My carrier is Verizon.",
+    "Status": "Open",
+    "CreatedDate": "2024-12-09T10:55:00Z"
+  },
+  {
+    "Name": "Henry Wilson",
+    "Email": "h.wilson@manufacturing.com",
+    "Subject": "Request for user training session",
+    "Description": "Our team of 12 people needs training on the new features released last month. Can we schedule a virtual training session next week?",
+    "Status": "In Progress",
+    "CreatedDate": "2024-12-08T15:42:00Z"
+  },
+  {
+    "Name": "Iris Patel",
+    "Email": "iris.patel@healthcare.org",
+    "Subject": "Data backup and recovery procedures",
+    "Description": "We need documentation on how data backup works and what the recovery procedures are in case of system failure. This is for our compliance audit.",
+    "Status": "Closed",
+    "CreatedDate": "2024-12-07T12:14:00Z"
+  },
+  {
+    "Name": "Jack Brown",
+    "Email": "jack.brown@retailchain.com",
+    "Subject": "Integration with third-party API failing",
+    "Description": "Our integration with the payment processor API started failing yesterday. Getting 401 unauthorized errors. API keys haven't changed.",
+    "Status": "Open",
+    "CreatedDate": "2024-12-06T17:29:00Z"
+  },
+  {
+    "Name": "Kelly Davis",
+    "Email": "kelly.davis@lawfirm.com",
+    "Subject": "Security concern about data encryption",
+    "Description": "As a law firm, we need to ensure all client data is properly encrypted. Can you provide details about encryption methods used for data at rest and in transit?",
+    "Status": "Open",
+    "CreatedDate": "2024-12-05T14:38:00Z"
+  },
+  {
+    "Name": "Luis Garcia",
+    "Email": "luis.garcia@restaurant.com",
+    "Subject": "Account billing discrepancy",
+    "Description": "We were charged for 15 users this month but we only have 12 active users. Please review our account and adjust the billing accordingly.",
+    "Status": "Closed",
+    "CreatedDate": "2024-12-04T11:23:00Z"
+  },
+  {
+    "Name": "Maria Gonzalez",
+    "Email": "maria.g@realestate.com",
+    "Subject": "Calendar integration not working with Outlook",
+    "Description": "The calendar sync with Microsoft Outlook stopped working after the latest update. Events created in your system don't appear in Outlook calendar.",
+    "Status": "Open",
+    "CreatedDate": "2024-12-03T09:47:00Z"
+  },
+  {
+    "Name": "Nathan Kim",
+    "Email": "n.kim@techstartup.io",
+    "Subject": "Performance issues during peak hours",
+    "Description": "System becomes very slow between 2-4 PM EST daily. Response times increase from 2 seconds to 30+ seconds. This affects our productivity significantly.",
+    "Status": "Open",
+    "CreatedDate": "2024-12-02T16:52:00Z"
+  },
+  {
+    "Name": "Olivia Anderson",
+    "Email": "olivia.anderson@agency.com",
+    "Subject": "Lost all data after system maintenance",
+    "Description": "After last night's maintenance window, all our project data from the past month is missing. This is critical as we have client deliverables due this week.",
+    "Status": "Open",
+    "CreatedDate": "2024-12-01T08:15:00Z"
+  },
+  {
+    "Name": "Peter Jackson",
+    "Email": "peter.jackson@finance.com",
+    "Subject": "Unable to generate monthly reports",
+    "Description": "The report generation feature is stuck at 'Processing...' for over an hour. This happens every time I try to generate monthly financial reports.",
+    "Status": "Closed",
+    "CreatedDate": "2024-11-30T13:36:00Z"
+  },
+  {
+    "Name": "Quinn Taylor",
+    "Email": "quinn.taylor@photography.com",
+    "Subject": "Image upload quality is being reduced",
+    "Description": "When I upload high-resolution images, they appear compressed and pixelated. As a photography business, we need to maintain original image quality.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-29T10:28:00Z"
+  },
+  {
+    "Name": "Rachel Green",
+    "Email": "rachel.green@consulting.net",
+    "Subject": "Email notifications not being sent",
+    "Description": "Team members are not receiving email notifications for new assignments. We've checked spam folders and email settings. The notification feature seems broken.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-28T15:17:00Z"
+  },
+  {
+    "Name": "Steve Miller",
+    "Email": "steve.miller@logistics.com",
+    "Subject": "Timezone display issues for global team",
+    "Description": "Timestamps are showing in different timezones for team members in different countries. We need all times to display in user's local timezone.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-27T12:44:00Z"
+  },
+  {
+    "Name": "Tina Foster",
+    "Email": "tina.foster@marketing.org",
+    "Subject": "Social media integration not posting",
+    "Description": "The automatic social media posting feature stopped working. We've reconnected our Facebook and Twitter accounts but posts still aren't going through.",
+    "Status": "Closed",
+    "CreatedDate": "2024-11-26T14:59:00Z"
+  },
+  {
+    "Name": "Victor Chang",
+    "Email": "victor.chang@ecommerce.com",
+    "Subject": "Search function returning incorrect results",
+    "Description": "When searching for products, the results include items that don't match the search terms. The search algorithm seems to have issues with partial matching.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-25T11:31:00Z"
+  },
+  {
+    "Name": "Wendy Liu",
+    "Email": "wendy.liu@hospital.org",
+    "Subject": "Need HIPAA compliance documentation",
+    "Description": "As a healthcare provider, we need detailed HIPAA compliance documentation for your system. This is required for our annual compliance review.",
+    "Status": "In Progress",
+    "CreatedDate": "2024-11-24T09:26:00Z"
+  },
+  {
+    "Name": "Xavier Torres",
+    "Email": "xavier.torres@architecture.com",
+    "Subject": "CAD file uploads not supported",
+    "Description": "We need to upload AutoCAD files (.dwg) but the system doesn't support this format. Can you add support for architectural drawing files?",
+    "Status": "Open",
+    "CreatedDate": "2024-11-23T16:13:00Z"
+  },
+  {
+    "Name": "Yuki Tanaka",
+    "Email": "yuki.tanaka@translation.com",
+    "Subject": "Multi-language support request",
+    "Description": "Our international clients need the interface in Japanese and Spanish. Currently only English is available which limits our usage.",
+    "Status": "Closed",
+    "CreatedDate": "2024-11-22T13:48:00Z"
+  },
+  {
+    "Name": "Zoe Parker",
+    "Email": "zoe.parker@fitness.com",
+    "Subject": "Video embedding feature not working",
+    "Description": "Cannot embed workout videos from YouTube or Vimeo. The embed codes don't render properly and show blank spaces instead of videos.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-21T10:35:00Z"
+  },
+  {
+    "Name": "Adam White",
+    "Email": "adam.white@construction.com",
+    "Subject": "Bulk data import is failing",
+    "Description": "Trying to import 5000 records via CSV but the process fails at around 2000 records with timeout error. File format is correct as per documentation.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-20T15:22:00Z"
+  },
+  {
+    "Name": "Betty Clark",
+    "Email": "betty.clark@insurance.com",
+    "Subject": "Print formatting is broken",
+    "Description": "When printing reports, the formatting is completely wrong. Text is cut off, tables are split awkwardly, and some sections don't print at all.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-19T12:07:00Z"
+  },
+  {
+    "Name": "Carlos Rivera",
+    "Email": "carlos.rivera@music.com",
+    "Subject": "Audio file playback issues",
+    "Description": "Audio files uploaded to the system play very quietly and sometimes with static. Original files play fine in other applications.",
+    "Status": "Closed",
+    "CreatedDate": "2024-11-18T14:41:00Z"
+  },
+  {
+    "Name": "Diana Prince",
+    "Email": "diana.prince@government.gov",
+    "Subject": "System crashes when handling large datasets",
+    "Description": "Application crashes when working with datasets over 10,000 records. Browser becomes unresponsive and we have to restart. This limits our analytical capabilities.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-17T11:16:00Z"
+  },
+  {
+    "Name": "Eric Johnson",
+    "Email": "eric.johnson@airline.com",
+    "Subject": "API rate limiting too restrictive",
+    "Description": "Current API rate limit of 100 calls per hour is too low for our booking system. We need at least 1000 calls per hour during peak travel seasons.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-16T16:53:00Z"
+  },
+  {
+    "Name": "Fiona Walsh",
+    "Email": "fiona.walsh@bookstore.com",
+    "Subject": "Inventory sync issues with warehouse system",
+    "Description": "Product inventory numbers don't match between your system and our warehouse management system. This causes overselling and stockout issues.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-15T09:39:00Z"
+  },
+  {
+    "Name": "George Martin",
+    "Email": "george.martin@shipping.com",
+    "Subject": "Barcode scanner integration not working",
+    "Description": "Our handheld barcode scanners cannot input data into your web forms. We need proper barcode integration for warehouse operations.",
+    "Status": "Closed",
+    "CreatedDate": "2024-11-14T13:24:00Z"
+  },
+  {
+    "Name": "Helen Carter",
+    "Email": "helen.carter@library.edu",
+    "Subject": "Database search is case-sensitive",
+    "Description": "Users have to type exact capitalization to find records. This is user-unfriendly. Please make the search case-insensitive.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-13T10:18:00Z"
+  },
+  {
+    "Name": "Ivan Petrov",
+    "Email": "ivan.petrov@energy.com",
+    "Subject": "Graphical charts not displaying correctly",
+    "Description": "All charts and graphs show as blank or with incorrect data points. This started after the last system update. Data is there but visualization is broken.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-12T15:46:00Z"
+  },
+  {
+    "Name": "Julia Adams",
+    "Email": "julia.adams@fashion.com",
+    "Subject": "Color picker tool not saving selections",
+    "Description": "When using the color picker for product customization, selected colors don't save properly. Customers can't complete their custom orders.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-11T12:32:00Z"
+  },
+  {
+    "Name": "Kevin Thompson",
+    "Email": "kevin.thompson@automotive.com",
+    "Subject": "Geographic mapping feature missing coordinates",
+    "Description": "The map view doesn't show accurate GPS coordinates for our service locations. Some locations appear in wrong countries.",
+    "Status": "Closed",
+    "CreatedDate": "2024-11-10T14:27:00Z"
+  },
+  {
+    "Name": "Linda Roberts",
+    "Email": "linda.roberts@catering.com",
+    "Subject": "Recipe calculator giving wrong measurements",
+    "Description": "When scaling recipes up or down, the ingredient measurements are mathematically incorrect. This affects our food preparation and costs.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-09T11:51:00Z"
+  },
+  {
+    "Name": "Michael Scott",
+    "Email": "michael.scott@paper.com",
+    "Subject": "Customer portal login redirects to wrong page",
+    "Description": "After customers log in, they're redirected to admin dashboard instead of customer portal. This shows them data they shouldn't see.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-08T16:09:00Z"
+  },
+  {
+    "Name": "Nancy Drew",
+    "Email": "nancy.drew@detective.com",
+    "Subject": "Advanced search filters not working",
+    "Description": "Multiple filter combinations return no results even when data exists. Simple searches work but complex filtering is broken.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-07T09:45:00Z"
+  },
+  {
+    "Name": "Oscar Martinez",
+    "Email": "oscar.martinez@accounting.com",
+    "Subject": "Currency conversion rates outdated",
+    "Description": "The system is using exchange rates from 6 months ago for international transactions. This causes significant financial discrepancies.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-06T13:56:00Z"
+  },
+  {
+    "Name": "Paula Chen",
+    "Email": "paula.chen@spa.com",
+    "Subject": "Appointment scheduling double-booking clients",
+    "Description": "The scheduling system is allowing multiple appointments at the same time slot. This creates conflicts and unhappy customers.",
+    "Status": "Closed",
+    "CreatedDate": "2024-11-05T10:33:00Z"
+  },
+  {
+    "Name": "Quincy Adams",
+    "Email": "quincy.adams@sports.com",
+    "Subject": "Team statistics calculations are incorrect",
+    "Description": "Player performance statistics don't add up correctly. Win-loss records, averages, and percentages show wrong numbers.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-04T15:21:00Z"
+  },
+  {
+    "Name": "Rita Hayworth",
+    "Email": "rita.hayworth@theater.com",
+    "Subject": "Ticket sales system charging wrong prices",
+    "Description": "Premium seats are being sold at regular prices and discounted tickets are charging full price. Revenue calculations are all wrong.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-03T12:14:00Z"
+  },
+  {
+    "Name": "Samuel Jackson",
+    "Email": "samuel.jackson@security.com",
+    "Subject": "Audit trail logs are incomplete",
+    "Description": "User activity logs are missing entries for critical actions. This fails our security compliance requirements for audit trails.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-02T14:48:00Z"
+  },
+  {
+    "Name": "Teresa Martinez",
+    "Email": "teresa.martinez@travel.com",
+    "Subject": "Weather widget showing wrong location data",
+    "Description": "Travel weather information displays data for wrong cities. Showing New York weather when location is set to Los Angeles.",
+    "Status": "Open",
+    "CreatedDate": "2024-11-01T11:29:00Z"
+  },
+  {
+    "Name": "Ulysses Grant",
+    "Email": "ulysses.grant@history.org",
+    "Subject": "Document version control not tracking changes",
+    "Description": "Multiple users editing documents but version history isn't saving properly. We're losing track of who made what changes when.",
+    "Status": "Closed",
+    "CreatedDate": "2024-10-31T16:37:00Z"
+  },
+  {
+    "Name": "Victoria Secret",
+    "Email": "victoria.secret@retail.com",
+    "Subject": "Size chart calculator giving wrong recommendations",
+    "Description": "Customers enter measurements but get incorrect size recommendations. This leads to returns and customer dissatisfaction.",
+    "Status": "Open",
+    "CreatedDate": "2024-10-30T09:52:00Z"
+  },
+  {
+    "Name": "William Shakespeare",
+    "Email": "william.shakespeare@literature.edu",
+    "Subject": "Text editor not saving formatting",
+    "Description": "Rich text formatting (bold, italic, fonts) gets lost when saving documents. All text reverts to plain format.",
+    "Status": "Open",
+    "CreatedDate": "2024-10-29T13:42:00Z"
+  },
+  {
+    "Name": "Xena Warrior",
+    "Email": "xena.warrior@fitness.com",
+    "Subject": "Workout timer not counting correctly",
+    "Description": "Exercise timing feature counts too fast - 60-second intervals finish in about 45 seconds. Affects all timed workouts.",
+    "Status": "Open",
+    "CreatedDate": "2024-10-28T10:25:00Z"
+  },
+  {
+    "Name": "Yasmin Ahmed",
+    "Email": "yasmin.ahmed@medical.com",
+    "Subject": "Patient records showing incorrect allergies",
+    "Description": "Critical issue: Patient allergy information is being mixed up between records. This is a serious safety concern that needs immediate attention.",
+    "Status": "Open",
+    "CreatedDate": "2024-10-27T15:18:00Z"
+  },
+  {
+    "Name": "Zachary Taylor",
+    "Email": "zachary.taylor@political.org",
+    "Subject": "Voting system allowing duplicate submissions",
+    "Description": "Members can vote multiple times on the same issue. The system should prevent duplicate votes from same user ID.",
+    "Status": "Closed",
+    "CreatedDate": "2024-10-26T12:03:00Z"
+  }
+] 
